@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor </title>
 </head>
 <body>
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
+    </header>
+
+    <div class="score_board">
+        <div id="player_label" class="badge">Player</div>
+        <div id="computer_label" class="badge">Computer</div>
+        <span id="player_score">0</span>:<span id="computer_score">0</span>
+    </div>
+
+    <div class="result">
+<p></p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img class="icons" src="images/rock.svg" alt="hand icon">
+        </div>
+        <div class="choice"  id="paper">
+            <img class="icons" src="images/paper.svg" alt="hand icon">
+        </div>
+        <div class="choice"  id="scissors">
+            <img class="icons" src="images/scissors.svg" alt="hand icon">
+        </div>
+
+    </div>
+<p id="action_message">Your move!</p>
     <script src="js/script.js">
     </script>
 </body>
